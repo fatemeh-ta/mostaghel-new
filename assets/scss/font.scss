@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Sahel;
+    src: url('../../font/Sahel.eot') format('embedded-opentype'),
+        url('../../font/Sahel.ttf') format('woff2'),
+        url('../../font/Sahel.woff') format('woff'),
+        url('../../font/Sahel.woff2') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sahel-bold;
+    src: url('../../font/Sahel-Bold.eot') format('embedded-opentype'),
+        url('../../font/Sahel-Bold.woff2') format('woff2'),
+        url('../../font/Sahel-Bold.woff') format('woff'),
+        url('../../font/Sahel-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Sahel-light;
+    src: url('../../font/Sahel-Light.eot') format('embedded-opentype'),
+        url('../../font/Sahel-Light.ttf') format('woff2'),
+        url('../../font/Sahel-Light.woff') format('woff'),
+        url('../../font/Sahel-Light.woff2') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Font-awsome;
+    src: url('../../font/fontawesome-webfont.eot') format('embedded-opentype'),
+        url('../../font/fontawesome-webfont.ttf') format('woff2'),
+        url('../../font/fontawesome-webfont.woff') format('woff'),
+        url('../../font/fontawesome-webfont.woff2') format('truetype'),
+        url('../../font/fontawesome-webfont.svg') format('truetype');
+    font-weight: normal;
+}
