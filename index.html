@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
     <head>
         <title>مستقل آنلاین</title>
         <meta name="viewporat" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="node_modules/lightslider/dist/css/lightslider.css">
         <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon-16x16.png">
+        <script src="js/logo.json"></script>
     </head>
     <body>
         <header>
@@ -22,11 +23,11 @@
                         <div class="date margin-top-bt">
                             <time class="time-box" datetime="2020-04-06">یکشنبه ۱۸ خرداد ۱۳۹۹</time>
                             <i class="fa fa-circle circle-icon" aria-hidden="true"></i>
-                            <time class="time-box">2020 7 jun</time>
+                            <time datetime="2020-05-02" class="time-box">2020 7 jun</time>
                             <div class="search-button">
                                 <form>
-                                    <button href="#" title="جستجو">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    <button title="جستجو" class="button-search">
+                                        <i class="fa fa-search seach-icon" aria-hidden="true"></i>
                                     </button>
                                 </form>
                             </div>
@@ -35,51 +36,117 @@
                             <div class="toggle">
                                 <i class="fa fa-bars menu-icon" aria-hidden="true" ></i>
                             </div>
-                            <ul class="menu-list">
+                            <ul class="menu-list" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
                                 <li>
-                                    <a title="" href="#">صفحه نخست</a>
+                                    <a title="" href="#" itemprop="url">صفحه نخست</a>
                                 </li>
                                 <li>
                                     <a title="" href="#">سیاسی</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <i class="fa fa-chevron-down political-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-political">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">بین الملل</a>
+                                    <a title="" href="#" itemprop="url">بین الملل</a>
                                 </li>
                                 <li>
-                                    <a title="" href="#">اجتماعی</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <a title="" href="#" itemprop="url">اجتماعی</a>
+                                    <i class="fa fa-chevron-down social-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-social">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">اقتصادی</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <a title="" href="#" itemprop="url">اقتصادی</a>
+                                    <i class="fa fa-chevron-down economic-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-economic">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">ورزشی</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <a title="" href="#" itemprop="url">ورزشی</a>
+                                    <i class="fa fa-chevron-down sport-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-sport">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">فرهنگی</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <a title="" href="#" itemprop="url">فرهنگی</a>
+                                    <i class="fa fa-chevron-down culture-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-culture">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">چند رسانه ای</a>
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <a title="" href="#" itemprop="url">چند رسانه ای</a>
+                                    <i class="fa fa-chevron-down mutinews-submenu" aria-hidden="true"></i>
+                                    <ul class="sub-menu sub-menu-mutinews">
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر اول</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر دوم</a>
+                                      </li>
+                                      <li>
+                                        <a href="#" title="" itemprop="url">خبر سوم</a>
+                                      </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a title="" href="#">چهره ها</a>
+                                    <a title="" href="#" itemprop="url">چهره ها</a>
                                 </li>
                                 <li>
-                                    <a title="" href="#"> گوناگون</a>
+                                    <a title="" href="#" itemprop="url"> گوناگون</a>
                                 </li>
                                 <li>
-                                    <a title="" href="#"> درباره ما</a>
+                                    <a title="" href="#" itemprop="url"> درباره ما</a>
                                 </li>
                                 <li>
-                                    <a title="" href="#">تماس با ما</a>
+                                    <a title="" href="#" itemprop="url">تماس با ما</a>
                                 </li>
                                 <li>
-                                    <a title="" href="#">رسانه های دیگر</a>
+                                    <a title="" href="#" itemprop="url">رسانه های دیگر</a>
                                 </li>
                             </ul>
                         </nav>
@@ -121,32 +188,32 @@
                     <div class="container">
                         <div class="first-col container">
                             <div class="margin-bottom">
-                                <section class="global-box-detail top-news container">
+                                <section class="global-box-detail top-news container" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <ul id="slide-pic" class="container">
                                         <li class="container">
                                             <header class="header-top-news">
                                                 <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                                <a title="سیاسی" href="#">سیاسی</a>
+                                                <a title="سیاسی" href="#" itemprop="url">سیاسی</a>
                                             </header>
                                             <div class="detail-top-news">
-                                                <h2 class="title-top-news">
-                                                    <a href="#" title="اماکن مذهبی بازگشایی می شوند">
+                                                <h2 class="title-top-news" itemprop="headLine" >
+                                                    <a href="#" title="اماکن مذهبی بازگشایی می شوند" itemprop="url">
                                                         اماکن مذهبی بازگشایی می شوند
                                                     </a>
                                                 </h2>
                                                 <div class="container content-top-news">
                                                    <div class="content-top-news-right">
-                                                       <a href="#" title="" class="block">
-                                                           <img class="respansive-img" src="./images/sheikh.jpg" alt="اماکن مذهبی بازگشایی می شوند" width="493" height="298">
+                                                       <a href="#" title="" class="block" itemprop="url">
+                                                           <img class="respansive-img" src="./images/sheikh.jpg" alt="اماکن مذهبی بازگشایی می شوند" width="493" height="298" itemprop="image">
                                                        </a>
                                                    </div>
                                                    <div class="content-top-news-left">
-                                                        <p class="lead-top-news">
-                                                            <a href="#" title="اماکن مذهبی بازگشایی می شوند">
+                                                        <p class="lead-top-news" itemprop="description">
+                                                            <a href="#" title="اماکن مذهبی بازگشایی می شوند" itemprop="url">
                                                                 رییس جمهور درباره تصمیمات ستاد مقابله با کرونا گفت : هر استانی که در وضعیت سفید قرار گرفت
                                                             </a>
                                                         </p>
-                                                        <time class="time-top-news">
+                                                        <time datetime="2020-02-05" class="time-top-news">
                                                             ۱۳خرداد ۱۳۹۹ 
                                                         </time>
                                                    </div> 
@@ -176,7 +243,7 @@
                                                                 رییس جمهور درباره تصمیمات ستاد مقابله با کرونا گفت : هر استانی که در وضعیت سفید قرار گرفت
                                                             </a>
                                                         </p>
-                                                        <time class="time-top-news">
+                                                        <time datetime="2020-05-04" class="time-top-news">
                                                             ۱۳خرداد ۱۳۹۹ 
                                                         </time>
                                                    </div> 
@@ -206,7 +273,7 @@
                                                                 رییس جمهور درباره تصمیمات ستاد مقابله با کرونا گفت : هر استانی که در وضعیت سفید قرار گرفت
                                                             </a>
                                                         </p>
-                                                        <time class="time-top-news">
+                                                        <time datetime="2020-01-09" class="time-top-news">
                                                             ۱۳خرداد ۱۳۹۹ 
                                                         </time>
                                                    </div> 
@@ -219,7 +286,7 @@
                             </div>
                         </div>
                         <div class="second-col container">
-                            <section class="second-level-news">
+                            <section class="second-level-news" itemscope="" itemtype="http://schema.org/CreativeWork">
                                 <ul>
                                     <li class="global-box-detail">
                                         <div class="image-second-level">
@@ -228,8 +295,8 @@
                                             </a>
                                         </div>
                                         <div class="title-second-level">
-                                            <h3>
-                                                <a href="#" title="">
+                                            <h3 itemprop="headLine">
+                                                <a href="#" title="" itemprop="url">
                                                     بیمارستان ها به خاطر کرونا تعطیل شدند
                                                 </a>
                                             </h3>
@@ -237,13 +304,13 @@
                                     </li>
                                     <li class="global-box-detail">
                                         <div class="image-second-level">
-                                            <a href="#" title="" class="block">
-                                                <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img">
+                                            <a href="#" title="" class="block" itemprop="url">
+                                                <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img" itemprop="image">
                                             </a>
                                         </div>
                                         <div class="title-second-level">
-                                            <h3>
-                                                <a href="#" title="">
+                                            <h3 itemprop="headLine">
+                                                <a href="#" title="" itemprop="url">
                                                     بیمارستان ها به خاطر کرونا تعطیل شدند
                                                 </a>
                                             </h3>
@@ -252,11 +319,11 @@
                                 </ul>
                             </section>
                             <div class="suggestion">
-                                <section class="suggestion-box global-box-detail">
+                                <section class="suggestion-box global-box-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-suggestion">
-                                        <h3 class="global-title-section">
+                                        <h3 class="global-title-section" itemprop="headLine">
                                             <i class="fa fa-align-right" aria-hidden="true"></i>
-                                            <a href="#" title="">
+                                            <a href="#" title="" itemprop="url">
                                                 پیشنهاد مراسم
                                             </a>
                                         </h3>
@@ -294,7 +361,7 @@
                     <div class="first-col-bottom container margin-top">
                         <div class="center-part margin-bt">
                             <div class="margin-bottom">
-                                <section class="political global-bottom-detail">
+                                <section class="political global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-center-part">
                                         <h3 class="global-title-section">
                                             <a href="#" title="" >سیاسی</a>
@@ -308,7 +375,7 @@
                                             <div class="lead-box">
                                                 <p>تصمیمات ستاد ملی کرونا</p>
                                             </div>
-                                            <time class="time-news">
+                                            <time datetime="2020-05-05" class="date-news">
                                                 ۱۳ خرداد ۱۳۹۹
                                             </time>
                                             <div class="title-right">
@@ -360,10 +427,13 @@
                                             </ul>
                                         </div>
                                     </div>
+                                      <a href="#" title="">
+                                        <i class="fa fa-arrow-circle-o-left archive" aria-hidden="true"></i>
+                                      </a>
                                 </section>
                             </div>
                             <div class="margin-bottom">
-                                <section class="global-bottom-detail culture">
+                                <section class="global-bottom-detail culture" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-center-part">
                                         <h3 class="global-title-section">
                                             <a href="#" title="" >فرهنگی</a>
@@ -377,7 +447,7 @@
                                             <div class="lead-box">
                                                 <p>تصمیمات ستاد ملی کرونا</p>
                                             </div>
-                                            <time class="time-news">
+                                            <time datetime="2020-05-04" class="date-news">
                                                 ۱۳ خرداد ۱۳۹۹
                                             </time>
                                             <div class="title-right">
@@ -429,10 +499,13 @@
                                             </ul>
                                         </div>
                                     </div>
+                                      <a href="#" title="">
+                                        <i class="fa fa-arrow-circle-o-left archive" aria-hidden="true"></i>
+                                      </a>
                                 </section>
                             </div>
                             <div class="margin-bottom">
-                                <section class="health global-bottom-detail">
+                                <section class="health global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-center-part">
                                         <h3 class="global-title-section">
                                             <a href="#" title="" >سلامت</a>
@@ -446,7 +519,7 @@
                                             <div class="lead-box">
                                                 <p>تصمیمات ستاد ملی کرونا</p>
                                             </div>
-                                            <time class="time-news">
+                                            <time datetime="2020-05-04" class="date-news">
                                                 ۱۳ خرداد ۱۳۹۹
                                             </time>
                                             <div class="title-right">
@@ -498,12 +571,15 @@
                                             </ul>
                                         </div>
                                     </div>
+                                      <a href="#" title="">
+                                        <i class="fa fa-arrow-circle-o-left archive" aria-hidden="true"></i>
+                                      </a>
                                 </section>
                             </div>
                         </div>
                         <div class="right-part margin-bottom">
                             <div class="margin-bottom">
-                                <section class="note-day global-bottom-detail">
+                                <section class="note-day global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-right-box">
                                         <h3 class="global-title-section">
                                             <a href="#" title="#">
@@ -586,10 +662,15 @@
                                             </li>
                                         </ul>
                                     </div>
+                                    <div class="archive-button">
+                                      <a href="#" title="#">
+                                        آرشیو
+                                      </a>
+                                    </div>
                                 </section>
                             </div>
                             <div class="margin-bottom">
-                                <section class="conversation global-bottom-detail">
+                                <section class="conversation global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-conversation">
                                         <ul class="container tab-nevigation">
                                             <li class="active">
@@ -675,11 +756,16 @@
                                                 </div>
                                             </li>
                                         </ul>
+                                    </div>
+                                    <div class="archive-button">
+                                      <a href="#" title="#">
+                                        آرشیو
+                                      </a>
                                     </div>   
                                 </section>
                             </div>
                             <div class="margin-bottom">
-                                <section class="padcast global-bottom-detail">
+                                <section class="padcast global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
                                     <header class="header-center-part">
                                         <h3 class="global-title-section">
                                             <a href="#" title="پادکست" >پادکست</a>
@@ -725,55 +811,334 @@
                     <div class="second-col-bottom margin-top">
                         <div class="left-part">
                             <div class="margin-bottom">
-                                <section class="photo-box">
-                                    <ul>
+                                <section class="photo-box global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
+                                    <ul id="photo-slide">
                                         <li>
-                                            <header-photo-box>
-                                                <h3 href="#" title="#">
+                                            <header>
+                                                <h3 class="global-title-section">
                                                    <a href="#" title="#">
-                                                       
+                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                    عکس روز
                                                    </a>  
                                                 </h3>
-                                            </header-photo-box>
+                                            </header>
+                                            <div class="detail-photo-box">
+                                                <a href="#" title="#" class="block">
+                                                    <img src="./images/sheikh.jpg" alt="#" width="493" height="298" class="respansive-img">
+                                                </a>
+                                                <h3>
+                                                    <a href="#" title="#">
+                                                        رهاسازی ببر با موفقیت در تهران
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <header>
+                                                <h3 class="global-title-section">
+                                                   <a href="#" title="#">
+                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                    عکس روز
+                                                   </a>  
+                                                </h3>
+                                            </header>
+                                            <div class="detail-photo-box">
+                                                <a href="#" title="#" class="block">
+                                                    <img src="./images/sheikh.jpg" alt="#" width="493" height="298" class="respansive-img">
+                                                </a>
+                                                <h3>
+                                                    <a href="#" title="#">
+                                                        رهاسازی ببر با موفقیت در تهران
+                                                    </a>
+                                                </h3>
+                                            </div>
                                         </li>
                                     </ul>
                                 </section>
                             </div>
                             <div class="margin-bottom">
-                                آخرین اخبار
+                                <section class="last-news global-bottom-detail" itemscope="" itemtype="http://schema.org/CreativeWork">
+                                    <header class="header-last-news">
+                                        <h3 class="global-title-section">
+                                            <a href="#" title="" >
+                                                <i class="fa fa-align-right" aria-hidden="true"></i>
+                                                آخرین اخبار
+                                            </a>
+                                        </h3>
+                                    </header>
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="">
+                                                چگونگی مقابله با مشکلات رایج روزه داری
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">
+                                                چگونگی مقابله با مشکلات رایج روزه داری
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">
+                                                چگونگی مقابله با مشکلات رایج روزه داری
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">
+                                                چگونگی مقابله با مشکلات رایج روزه داری
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">
+                                                چگونگی مقابله با مشکلات رایج روزه داری
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" title="">
+                                      <i class="fa fa-arrow-circle-o-left archive" aria-hidden="true"></i>
+                                    </a>
+                                </section>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="outer-wrapper box-color">
-                <div class="main-wrapper">
-                    <div class="news-media container">
-                        <span>اخبار در رسانه</span>
+                <section class="news-media container" itemscope="" itemtype="http://schema.org/CreativeWork">
+                    <header>
+                      <div class="main-wrapper">
+                        <h3>
+                          <a href="#" title="">
+                              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                              اخبار در رسانه
+                          </a>
+                        </h3>
+                      </div>
+                    </header>
+                    <div class="main-wrapper">
                         <ul class="container">
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
-                            <li>6</li>
-                            <li>7</li>
-                            <li>8</li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="container">
+                                <div class="image-news-media">
+                                    <a href="#" title="" class="block">
+                                        <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img"> 
+                                    </a>
+                                </div>
+                                <div class="detail-news-media">
+                                    <h2>
+                                        <a href="#" title="#">
+                                            شیلا خداد از خفگی نجات پیدا کرد
+                                        </a>
+                                    </h2>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                </div>
+                </section>
             </div>
-            <div class="outer-wrapper box-color">
+            <div class="outer-wrapper multimedia-background">
                 <div class="main-wrapper">
                     <div class="margin-top">
-                        <div class="multimedia container">
-                            <div class="right-multimedia">
-                                عکس
+                        <section class="multimedia container" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="right-multimedia container">
+                                <header class="header-right-multimedia">
+                                    <h3>
+                                        <a href="#" title="#">
+                                            گزارش تصویری
+                                        </a>
+                                    </h3>
+                                </header>
+                                <div class="gallery-box container">
+                                    <div class="gallery-right">
+                                        <div class="gallery-right-image">
+                                            <a href="#" title="" class="block">
+                                                <img src="./images/sheikh.jpg" alt="" width="493" height="298" class="respansive-img">
+                                            </a>
+                                        </div>
+                                        <div class="gallery-title-time">
+                                            <div class="gallery-right-title">
+                                                <h2>
+                                                    <a href="#" title="">
+                                                    آلودگی شبکه آب به ویروس کرونا تایید شد 
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <div class="gallery-right-time">
+                                                <time datetime="2020-05-02">۱۳ خرداد ۱۳۹۹</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="gallery-list container">
+                                        <li>
+                                            <a href="#" title="" class="block">
+                                                <img src="./images/sheikh.jpg" class="respansive-img" width="493" height="298" alt="">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="" class="block">
+                                                <img src="./images/sheikh.jpg" class="respansive-img" width="493" height="298" alt="">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="" class="block">
+                                                <img src="./images/sheikh.jpg" class="respansive-img" width="493" height="298" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="left-multimedia">
-                                ویديو
+                                <header class="header-left-multimedia">
+                                    <h3>
+                                        <a href="#" title="#">
+                                            ویدیو 
+                                        </a>
+                                    </h3>
+                                </header>
+                                <div class="body-left-multimedia">
+                                    <ul id="slide-video">
+                                        <li>
+                                            <div class="video-box">
+                                                <a href="#" title="ویدیو" class="block">
+                                                  <img src="./images/sheikh.jpg" alt="" width="420" height="259" class="respansive-img">
+                                                </a>
+                                            </div>
+                                            <div class="video-title-time">
+                                                <div class="video-title">
+                                                    <h2>
+                                                        <a href="#" title="">
+                                                            نجفی خلفه وعده کرد
+                                                        </a>
+                                                    </h2>
+                                                </div>
+                                                <div class="video-time">
+                                                    <time datetime="2020-05-04">
+                                                        ۱۳ خرداد ۱۳۹۹
+                                                    </time>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="video-box">
+                                                <a href="#" title="ویدیو" class="block">
+                                                  <img src="./images/sheikh.jpg" alt="" width="420" height="259" class="respansive-img">
+                                                </a>
+                                            </div>
+                                            <div class="video-title-time">
+                                                <div class="video-title">
+                                                    <h2>
+                                                        <a href="#" title="">
+                                                            نجفی خلفه وعده کرد
+                                                        </a>
+                                                    </h2>
+                                                </div>
+                                                <div class="video-time">
+                                                    <time datetime="2020-05-04">
+                                                        ۱۳ خرداد ۱۳۹۹
+                                                    </time>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -781,16 +1146,76 @@
         <footer>
             <div class="outer-wrapper footer-box">
                 <div class="main-wrapper">
-                    <div class="hot_subject_bottom">
-                        موضوعات داغ
+                    <div class="hot-subject-bottom">
+                        <section class="hot-subject-box" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="hot-subject-title">
+                                <h3>
+                                    <a href="#" title="">
+                                        موضوعات داغ
+                                    </a>
+                                </h3>
+                              </div>
+                            <ul class="hot-subject-list">
+                                <li>
+                                    <a href="#" title="#">
+                                        حسین محمودیان
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="#">
+                                        حسین محمودیان
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="#">
+                                        حسین محمودیان
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
                     </div>
-                    <div class="follow-me">
-                        مارا دنبال کنید
+                    <div class="margin-top-bt">
+                        <section class="follow-me" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="follow-me-title">
+                                <h3>
+                                    <a href="#" title="">
+                                        مارا دنبال کنید :
+                                    </a>
+                                </h3>
+                              </div>
+                            <div class="social-media">
+                                <a href="#" title="" class="rss">
+                                    <i class="fa fa-rss-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" title="" class="instagram">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" title="" class="linkedin">
+                                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" title="" class="twitter">
+                                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" title="" class="facebook">
+                                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </section>
                     </div>
-                    <div class="social-media">
-                        شبکه ای اجتماعی
+                    <div class="aasaam">
+                      <a href="#" title="#">
+                        <img src="./images/aasaam.png" alt="aasaam" width="250" height="250">
+                      </a>
+                      <a href="" title=" طراحی سایت خبری و خبرگزاری آسام" class="aasaam-detile">
+                         طراحی سایت خبری و خبرگزاری آسام
+                      </a>
                     </div>
                 </div>
+            </div>
+            <div class="outer-wrapper">
+              <div class="copy-right">
+                سایت اینترنتی مستقل آنلاین Ⓒ کلیه حقوق متعلق به سایت مستقل آنلاین است. 
+              </div>
             </div>
         </footer>
         <script src="./node_modules/jquery/dist/jquery.min.js"></script>

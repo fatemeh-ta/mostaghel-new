@@ -82,7 +82,28 @@ a {
   background-color: #952328;
   border-radius: 7px;
   display: inline-block;
-  padding: 4px 8px; }
+  padding: 4px 8px 8px 8px; }
   .global-title-section a {
     font-size: 0.7em;
     color: #fff; }
+
+.archive {
+  text-align: left;
+  display: block;
+  padding: 8px 0 8px 8px;
+  color: #da9e36;
+  transition: 0.5s;
+  font-size: 1.4em; }
+  .archive:hover {
+    color: #952328; }
+
+.archive-button {
+  text-align: left;
+  padding: 0 8px 8px 8px; }
+  .archive-button a {
+    background-color: #952328;
+    border-radius: 7px;
+    padding: 4px 8px 8px 8px;
+    color: #fff;
+    font-size: 0.9em;
+    display: inline-block; }
