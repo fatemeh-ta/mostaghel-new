@@ -1,8 +1,13 @@
 {
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https:\/\/www.mosalasonline.com\/images\/logo.png",
-      "width": 170,
-      "height": 92
-    }
+  "name": " مستقل نیوز سایت مرجع اقتصاد ایران ",
+  "url": "https:\/\/www.eghtesadnews.com\/",
+  "logo": "https:www.eghtesadnews.com/images/en-logo.png",
+  "sameAs": [
+      "https:\/\/twitter.com\/eghtesadnews",
+      "https:\/\/telegram.me\/eghtesadnews_com",
+      "https:\/\/www.facebook.com\/Eghtesadnews",
+      "http:\/\/instagram.com\/eghtesadnews"
+  ],
+  "@type": "Organization",
+  "@context": "http:\/\/schema.org"
 }

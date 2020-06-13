@@ -4,7 +4,7 @@ $(document).ready(function(){
       $(".menu-list").slideToggle();
     });
 /*------------------START SUBMENU-------------------------------- */
-    if (window.matchMedia('(max-width: 900px)').matches) {
+    if (window.matchMedia('(max-width:900px)').matches) {
       $(".political-submenu").click(function(){
         $(".sub-menu-political").slideToggle("slow");
       });
